@@ -27,8 +27,8 @@ then
     if [[ "$oku" == *"$SUB"* ]]; then
         burdaa=$oku
     fi
-    done < asd.txt
-    rm -rf asd.txt
+    done < dosyayolu.txt
+    rm -rf dosyayolu.txt
     adb pull $burdaa /home/$USER/Desktop/$2.apk
     d2j-dex2jar $2.apk
 fi
