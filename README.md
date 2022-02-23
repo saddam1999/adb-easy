@@ -25,4 +25,4 @@ Bash
 [z3r0@kernel]~$ ./adbeasy.sh path [com.xx.xxx] ->  (Get File Application Path)
 
 
-[z3r0@kernel]~$ ./adbeasy.sh get [com.xx.xxx] ->  (Get base.apk file and auto dex2jar)
+[z3r0@kernel]~$ ./adbeasy.sh get [com.xx.xxx] ->  (Get base.apk and auto dex2jar)
